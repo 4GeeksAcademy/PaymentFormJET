@@ -23,9 +23,14 @@
           class="col-12 d-flex justify-content-center align-items-center h-100"
         >
           <div class="card w-100 text-dark bg-light" style="max-width: 1200px">
-            <div class="card-header fw-bold" style="font-size: 1.7rem;" >Payment form example</div>
+            <div class="card-header fw-bold" style="font-size: 1.7rem">
+              Payment form example
+            </div>
             <div class="card-body">
-              <div class="bg-danger bg-opacity-25 px-4 pt-3 pb-1 rounded fw-bold" style="color: rgb(154, 57, 0);">
+              <div
+                class="bg-danger bg-opacity-25 px-4 pt-3 pb-1 mx-4 rounded fw-bold"
+                style="color: rgb(154, 57, 0)"
+              >
                 <p>Some fields are missing</p>
               </div>
               <form class="p-4">
@@ -77,7 +82,6 @@
                     </div>
                   </div>
                 </div>
-
                 <!-- Name Fields -->
                 <div class="row mb-3">
                   <div class="col">
@@ -105,48 +109,56 @@
                       <div class="col-12">
                         <fieldset>
                           <label class="form-label">We accept:</label>
-                          <div class="d-flex bg-secondary text-white rounded p-1">
-                            <div class="form-check">
+                          <div class="d-flex text-white">
+                            <div class="form-check bg-secondary rounded-start">
                               <input
                                 class="form-check-input"
                                 type="radio"
                                 name="payment"
                                 id="mastercard"
                               />
-                              <label class="form-check-label" for="mastercard"
+                              <label
+                                class="form-check-label bg-secondary px-1"
+                                for="mastercard"
                                 >Mastercard</label
                               >
                             </div>
-                            <div class="form-check">
+                            <div class="form-check bg-secondary">
                               <input
                                 class="form-check-input"
                                 type="radio"
                                 name="payment"
                                 id="visa"
                               />
-                              <label class="form-check-label" for="visa"
+                              <label
+                                class="form-check-label bg-secondary"
+                                for="visa"
                                 >Visa</label
                               >
                             </div>
-                            <div class="form-check">
+                            <div class="form-check bg-secondary">
                               <input
                                 class="form-check-input"
                                 type="radio"
                                 name="payment"
                                 id="diners"
                               />
-                              <label class="form-check-label" for="diners"
+                              <label
+                                class="form-check-label bg-secondary"
+                                for="diners"
                                 >Diners Club</label
                               >
                             </div>
-                            <div class="form-check">
+                            <div class="form-check bg-secondary">
                               <input
                                 class="form-check-input"
                                 type="radio"
                                 name="payment"
                                 id="amex"
                               />
-                              <label class="form-check-label" for="amex"
+                              <label
+                                class="form-check-label bg-secondary rounded-end px-1"
+                                for="amex"
                                 >AmEx</label
                               >
                             </div>
@@ -247,7 +259,10 @@
                         style="height: 100px"
                       ></textarea>
                     </div>
-                    <label for="inputNotes" class="form-label" style="font-size: 0.8rem;"
+                    <label
+                      for="inputNotes"
+                      class="form-label"
+                      style="font-size: 0.8rem"
                       >Add any notes here.</label
                     >
                   </div>
